@@ -61,7 +61,7 @@ export default function PhilosophyTimeline() {
           Core <span className="gradient-text-cyan-blue">Philosophy</span>
         </h2>
         <p className="text-slate-400 text-sm sm:text-base mt-3">
-          Core principles guiding {personalInfo.name}'s approach to high-performing digital campaigns and modern web interfaces.
+          Core principles guiding {personalInfo.name}'s approach to custom WordPress solutions, technical SEO, and modern web engineering.
         </p>
       </div>
 

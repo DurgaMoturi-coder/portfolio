@@ -12,6 +12,7 @@ import {
   Zap,
   Code
 } from 'lucide-react';
+import { SiWordpress } from 'react-icons/si';
 import SpotlightCard from './SpotlightCard';
 
 export default function AboutBento() {
@@ -53,7 +54,7 @@ export default function AboutBento() {
           <span className="gradient-text-cyan-blue">Experiences</span>
         </h2>
         <p className="text-slate-400 text-sm sm:text-base mt-3">
-          Digital Marketing &amp; SEO Specialist and Frontend Developer based in Tanuku, Andhra Pradesh, India — fusing data-driven search strategy with modern web engineering.
+          WordPress Developer &amp; SEO Specialist and Frontend Developer based in Tanuku, Andhra Pradesh, India — fusing custom CMS architecture with modern web engineering and data-driven SEO.
         </p>
       </div>
 
@@ -67,13 +68,13 @@ export default function AboutBento() {
               <Search className="w-5 h-5" />
             </div>
             <h3 className="font-display text-xl font-bold text-white mb-3">
-              Digital Marketing &amp; SEO Specialist
+              WordPress Developer &amp; SEO Specialist
             </h3>
             <p className="text-slate-300 text-sm leading-relaxed mb-4">
-              I am Durga Rao Moturi, a dedicated Digital Marketing &amp; SEO Specialist and Frontend Developer based in Tanuku, Andhra Pradesh. I specialize in maximizing search engine visibility, scaling organic traffic, and designing high-converting online experiences.
+              I am Durga Rao Moturi, a dedicated WordPress Developer, SEO Specialist, and Frontend Developer based in Tanuku, Andhra Pradesh. I specialize in building custom, high-speed WordPress websites, maximizing search engine visibility, and engineering high-converting web solutions.
             </p>
             <p className="text-slate-400 text-sm leading-relaxed">
-              My core technical proficiency covers modern Frontend Web Development with JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS, coupled with hands-on expertise in Google Analytics, Google Search Console, technical SEO audits, and conversion optimization.
+              My technical proficiency spans custom WordPress theme &amp; plugin development, modern Frontend Web Development with JavaScript (ES6+), HTML5, CSS3, and Tailwind CSS, coupled with hands-on technical SEO, Core Web Vitals optimization, and Google Analytics.
             </p>
           </div>
 
@@ -176,50 +177,50 @@ export default function AboutBento() {
               </p>
               <div className="pt-2 text-slate-400 border-t border-slate-800/60 leading-relaxed">
                 <p>✔ Fetching Durga Rao Moturi profile card...</p>
-                <p className="text-emerald-400">✔ Digital Marketing &amp; SEO Specialist</p>
-                <p className="text-purple-300">✔ Frontend: JavaScript (ES6+), HTML5, CSS3, Tailwind CSS</p>
-                <p className="text-cyan-300">✔ GitHub: github.com/DurgaMoturi-coder</p>
+                <p className="text-emerald-400">✔ WordPress Developer &amp; SEO Specialist</p>
+                <p className="text-purple-300">✔ WordPress: Custom Themes, Plugins, WooCommerce</p>
+                <p className="text-cyan-300">✔ Frontend: JavaScript (ES6+), Tailwind CSS, HTML5/CSS3</p>
                 <p className="text-slate-300">✔ Location: Tanuku, Andhra Pradesh, India 🇮🇳</p>
               </div>
             </div>
           </div>
 
           <div className="mt-4 text-[11px] font-mono text-slate-500 text-right">
-            SEO &amp; Modern Web Ecosystems
+            WordPress &amp; Modern Web Ecosystems
           </div>
         </SpotlightCard>
 
-        {/* Card 5: SEO Strategy & Marketing Analytics Focus */}
+        {/* Card 5: WordPress & SEO Architecture Focus */}
         <SpotlightCard className="md:col-span-2 p-6 sm:p-8 flex flex-col justify-between">
           <div>
             <div className="flex items-center gap-3 mb-4">
               <div className="w-10 h-10 rounded-xl bg-blue-500/10 border border-blue-500/30 flex items-center justify-center text-blue-400">
-                <TrendingUp className="w-5 h-5" />
+                <SiWordpress className="w-5 h-5" />
               </div>
               <div>
                 <h3 className="font-display text-lg font-bold text-white">
-                  SEO &amp; Growth Marketing
+                  WordPress &amp; Technical SEO
                 </h3>
-                <p className="text-xs text-slate-400 font-mono">Technical SEO • Google Analytics • CRO • Search Console</p>
+                <p className="text-xs text-slate-400 font-mono">Custom CMS • Speed Tuning • Technical SEO • Google Analytics</p>
               </div>
             </div>
             <p className="text-slate-300 text-sm leading-relaxed">
-              Conducting in-depth on-page &amp; technical SEO audits, keyword gap analysis, meta architecture optimization, schema structured data, and performance monitoring to consistently rank on Google SERPs.
+              Engineering lightweight custom WordPress themes and WooCommerce stores, optimizing database queries and asset pipelines for Core Web Vitals, and implementing structured schema markup with in-depth SEO audits.
             </p>
           </div>
 
           <div className="mt-6 grid grid-cols-3 gap-2 text-center font-mono">
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
+              <div className="text-xs text-sky-400 font-bold">WordPress</div>
+              <div className="text-[10px] text-slate-400 mt-0.5">Themes &amp; CMS</div>
+            </div>
+            <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
               <div className="text-xs text-cyan-400 font-bold">SEO Audit</div>
-              <div className="text-[10px] text-slate-400 mt-0.5">SERP Rankings</div>
+              <div className="text-[10px] text-slate-400 mt-0.5">Top SERP Ranks</div>
             </div>
             <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
-              <div className="text-xs text-emerald-400 font-bold">Analytics 4</div>
-              <div className="text-[10px] text-slate-400 mt-0.5">Traffic Insights</div>
-            </div>
-            <div className="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
-              <div className="text-xs text-purple-400 font-bold">CRO &amp; Funnels</div>
-              <div className="text-[10px] text-slate-400 mt-0.5">High Conversion</div>
+              <div className="text-xs text-emerald-400 font-bold">Core Vitals</div>
+              <div className="text-[10px] text-slate-400 mt-0.5">95+ PageSpeed</div>
             </div>
           </div>
         </SpotlightCard>

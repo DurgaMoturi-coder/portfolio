@@ -2,7 +2,7 @@
 
 # Durga Rao Moturi · Portfolio
 
-**Digital Marketing & SEO Specialist | Frontend Developer based in Tanuku, Andhra Pradesh.**
+**WordPress Developer & SEO Specialist | Frontend Developer based in Tanuku, Andhra Pradesh.**
 
 [![React](https://img.shields.io/badge/React_19-20232a?style=for-the-badge&logo=react&logoColor=61dafb)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)

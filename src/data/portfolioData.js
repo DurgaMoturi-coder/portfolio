@@ -3,7 +3,7 @@ export const portfolioData = {
     name: "Durga Rao Moturi",
     shortName: "Durga Rao",
     monogram: "DM",
-    role: "Digital Marketing & SEO Specialist",
+    role: "WordPress Developer & SEO Specialist",
     secondaryRole: "Frontend Developer (HTML5, CSS3, Tailwind CSS, JS ES6+)",
     location: {
       city: "Tanuku",
@@ -23,31 +23,31 @@ export const portfolioData = {
     },
     status: {
       isAvailable: true,
-      badgeText: "Available for Digital Marketing, SEO & Frontend Roles",
+      badgeText: "Available for WordPress, SEO & Frontend Roles",
       yearBadge: "2026 Portfolio",
     },
     avatar: {
-      alt: "Durga Rao Moturi - Digital Marketing & SEO Specialist",
+      alt: "Durga Rao Moturi - WordPress Developer & SEO Specialist",
       initials: "DM",
       gradient: "from-cyan-500 via-blue-600 to-purple-600",
     },
   },
 
   hero: {
-    badge: "Digital Marketing & SEO Specialist | Frontend Developer",
+    badge: "WordPress Developer & SEO Specialist | Frontend Developer",
     headline: {
       prefix: "Durga Rao",
       highlight: "Moturi",
       suffix: "",
     },
     animatedHeadlines: [
-      "Digital Marketing & Growth Campaigns",
+      "Custom WordPress & Theme Development",
       "Search Engine Optimization (SEO)",
+      "WooCommerce & CMS Architecture",
       "Frontend Development (ES6+ & Tailwind)",
-      "High-Converting Landing Pages",
     ],
     subheadline:
-      "Hi, I'm Durga Rao Moturi. I'm a Digital Marketing & SEO Specialist and Frontend Developer based in Tanuku, Andhra Pradesh. I specialize in search engine optimization, digital growth strategies, and building performant web interfaces with HTML5, CSS3, Tailwind CSS, and JavaScript (ES6+).",
+      "Hi, I'm Durga Rao Moturi. I'm a WordPress Developer, SEO Specialist, and Frontend Developer based in Tanuku, Andhra Pradesh. I specialize in custom WordPress themes and plugins, technical search engine optimization, and building performant web interfaces with HTML5, CSS3, Tailwind CSS, and JavaScript (ES6+).",
     cta: {
       primary: {
         text: "Explore Work & Projects",
@@ -63,8 +63,8 @@ export const portfolioData = {
       },
     },
     stats: [
-      { label: "Specialization", value: "SEO & Digital Marketing" },
-      { label: "Frontend Stack", value: "HTML5, CSS3, JS ES6+, Tailwind" },
+      { label: "Specialization", value: "WordPress & SEO Development" },
+      { label: "Frontend & CMS Stack", value: "WordPress, Tailwind, JS ES6+, HTML5" },
       { label: "Location", value: "Tanuku, Andhra Pradesh" },
       { label: "Status", value: "Available for Work" },
     ],
@@ -73,9 +73,9 @@ export const portfolioData = {
       language: "typescript",
       content: `const specialist = {
   name: "Durga Rao Moturi",
-  roles: ["Digital Marketing Specialist", "SEO Specialist", "Frontend Developer"],
+  roles: ["WordPress Developer", "SEO Specialist", "Frontend Developer"],
   location: "Tanuku, Andhra Pradesh, India",
-  primarySkills: ["SEO Optimization", "Digital Marketing", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
+  primarySkills: ["WordPress (Themes/Plugins)", "SEO Optimization", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS"],
   status: "Available for new projects & full-time roles"
 };
 
@@ -84,13 +84,13 @@ export default specialist;`,
   },
 
   skills: {
-    seoMarketing: [
+    wordpressSeo: [
+      { name: "WordPress Theme & Plugin Development", level: "Advanced" },
       { name: "Search Engine Optimization (SEO)", level: "Advanced" },
       { name: "On-Page & Technical SEO", level: "Advanced" },
+      { name: "WooCommerce & E-Commerce Solutions", level: "Advanced" },
       { name: "Google Analytics & Search Console", level: "Advanced" },
-      { name: "Digital Marketing Strategy", level: "Advanced" },
-      { name: "Keyword & Competitor Research", level: "Advanced" },
-      { name: "Conversion Rate Optimization (CRO)", level: "Advanced" },
+      { name: "Page Speed & Core Web Vitals Optimization", level: "Advanced" },
     ],
     frontend: [
       { name: "JavaScript (ES6+)", level: "Advanced" },
@@ -132,12 +132,12 @@ export default specialist;`,
         name: "portfoliowith",
         title: "Portfolio Showcase Platform",
         description:
-          "High-performance responsive personal portfolio featuring SEO optimization, digital marketing integration, and modern frontend styling.",
+          "High-performance responsive personal portfolio featuring custom WordPress development, SEO optimization, and modern frontend styling.",
         html_url: "https://github.com/DurgaMoturi-coder/portfoliowith",
         stargazers_count: 8,
         forks_count: 2,
         language: "JavaScript",
-        topics: ["portfolio", "seo", "digital-marketing", "tailwindcss", "javascript"],
+        topics: ["portfolio", "wordpress", "seo", "tailwindcss", "javascript"],
         updated_at: "2026-02-12T15:30:00Z",
       },
     ],

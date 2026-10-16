@@ -13,7 +13,7 @@ import {
   FaRobot,
   FaFlask,
   FaChartLine,
-  FaBullhorn
+  FaWordpress
 } from 'react-icons/fa6';
 import {
   SiTypescript,
@@ -46,17 +46,62 @@ import {
   SiNetlify,
   SiRender,
   SiRailway,
-  SiCloudflare
+  SiCloudflare,
+  SiWordpress,
+  SiWoocommerce,
+  SiElementor
 } from 'react-icons/si';
 import SpotlightCard from './SpotlightCard';
 
-const CATEGORIES = ['All', 'SEO & Marketing', 'Frontend', 'Tools', 'AI Tools', 'Mobile', 'Backend', 'Database'];
+const CATEGORIES = ['All', 'WordPress', 'Frontend', 'SEO & Analytics', 'Tools', 'AI Tools', 'Mobile', 'Backend', 'Database'];
 
 const SKILLS_MATRIX = [
-  // SEO & Marketing
+  // WordPress
+  {
+    name: 'WordPress Development',
+    category: 'WordPress',
+    level: 'Advanced',
+    icon: SiWordpress,
+    color: 'text-sky-400',
+    bg: 'bg-sky-500/10',
+    border: 'border-sky-500/30',
+    desc: 'Custom theme & child theme development, custom post types, hooks/filters, and REST API.'
+  },
+  {
+    name: 'WooCommerce & E-Commerce',
+    category: 'WordPress',
+    level: 'Advanced',
+    icon: SiWoocommerce,
+    color: 'text-purple-400',
+    bg: 'bg-purple-500/10',
+    border: 'border-purple-500/30',
+    desc: 'Custom product catalog architectures, checkout flows, payment gateway integrations, and store scaling.'
+  },
+  {
+    name: 'Elementor & Gutenberg FSE',
+    category: 'WordPress',
+    level: 'Advanced',
+    icon: SiElementor,
+    color: 'text-rose-400',
+    bg: 'bg-rose-500/10',
+    border: 'border-rose-500/30',
+    desc: 'Full-site editing, custom Gutenberg blocks, dynamic templates, and lightweight responsive styling.'
+  },
+  {
+    name: 'Speed & Core Web Vitals',
+    category: 'WordPress',
+    level: 'Advanced',
+    icon: FaChartLine,
+    color: 'text-emerald-400',
+    bg: 'bg-emerald-500/10',
+    border: 'border-emerald-500/30',
+    desc: 'Asset optimization, caching architectures, database query tuning, and 95+ Google PageSpeed scores.'
+  },
+
+  // SEO & Analytics
   {
     name: 'Search Engine Optimization (SEO)',
-    category: 'SEO & Marketing',
+    category: 'SEO & Analytics',
     level: 'Advanced',
     icon: FaChartLine,
     color: 'text-cyan-400',
@@ -65,18 +110,8 @@ const SKILLS_MATRIX = [
     desc: 'Keyword ranking strategy, on-page optimization, backlink profiling, and SERP visibility.'
   },
   {
-    name: 'Digital Marketing Strategy',
-    category: 'SEO & Marketing',
-    level: 'Advanced',
-    icon: FaBullhorn,
-    color: 'text-purple-400',
-    bg: 'bg-purple-500/10',
-    border: 'border-purple-500/30',
-    desc: 'Multi-channel acquisition campaigns, social media marketing, content funnel, and ROI growth.'
-  },
-  {
     name: 'Google Analytics & Search Console',
-    category: 'SEO & Marketing',
+    category: 'SEO & Analytics',
     level: 'Advanced',
     icon: SiGoogleanalytics,
     color: 'text-amber-400',
@@ -85,13 +120,23 @@ const SKILLS_MATRIX = [
     desc: 'Traffic analysis, user behavior tracking, Core Web Vitals audit, and indexation monitoring.'
   },
   {
-    name: 'Conversion Rate Optimization (CRO)',
-    category: 'SEO & Marketing',
+    name: 'Technical SEO & Schema Markup',
+    category: 'SEO & Analytics',
     level: 'Advanced',
     icon: CheckCircle2,
-    color: 'text-emerald-400',
-    bg: 'bg-emerald-500/10',
-    border: 'border-emerald-500/30',
+    color: 'text-teal-400',
+    bg: 'bg-teal-500/10',
+    border: 'border-teal-500/30',
+    desc: 'JSON-LD schema, canonical hierarchies, XML sitemaps, robots.txt, and crawl budget optimization.'
+  },
+  {
+    name: 'Conversion Rate Optimization (CRO)',
+    category: 'SEO & Analytics',
+    level: 'Advanced',
+    icon: FaWandMagicSparkles,
+    color: 'text-indigo-400',
+    bg: 'bg-indigo-500/10',
+    border: 'border-indigo-500/30',
     desc: 'A/B testing, user friction reduction, UI/UX copywriting, and high-converting landing page funnels.'
   },
 
@@ -633,7 +678,7 @@ export default function TechStack() {
           Core Technologies & <span className="gradient-text-cyan-blue">Tools</span>
         </h2>
         <p className="text-slate-400 text-sm sm:text-base mt-3">
-          Technologies and digital strategies Durga Rao Moturi utilizes to scale search rankings, run targeted marketing campaigns, and develop modern frontend web interfaces.
+          Technologies and CMS solutions Durga Rao Moturi utilizes to build custom WordPress sites, scale search rankings, and develop modern frontend web interfaces.
         </p>
       </div>
 

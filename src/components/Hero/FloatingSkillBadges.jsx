@@ -1,7 +1,7 @@
 import { memo } from 'react';
 import { motion } from 'framer-motion';
-import { FaChartLine, FaBullhorn, FaJs } from 'react-icons/fa6';
-import { SiTailwindcss } from 'react-icons/si';
+import { FaChartLine, FaJs } from 'react-icons/fa6';
+import { SiTailwindcss, SiWordpress } from 'react-icons/si';
 
 function FloatingSkillBadges() {
   return (
@@ -16,14 +16,14 @@ function FloatingSkillBadges() {
         <span>SEO Specialist</span>
       </motion.div>
 
-      {/* Badge 2: Digital Marketing (Top-Right) */}
+      {/* Badge 2: WordPress Developer (Top-Right) */}
       <motion.div
         animate={{ y: [0, 6, 0] }}
         transition={{ duration: 4.5, repeat: Infinity, ease: 'easeInOut', delay: 0.5 }}
-        className="absolute -top-3 -right-4 sm:-right-6 px-3 py-1.5 rounded-xl glass-panel border-purple-500/40 text-purple-300 text-xs font-mono flex items-center gap-1.5 shadow-xl hidden sm:flex"
+        className="absolute -top-3 -right-4 sm:-right-6 px-3 py-1.5 rounded-xl glass-panel border-sky-500/40 text-sky-300 text-xs font-mono flex items-center gap-1.5 shadow-xl hidden sm:flex"
       >
-        <FaBullhorn className="w-4 h-4 text-purple-400" />
-        <span>Digital Marketing</span>
+        <SiWordpress className="w-4 h-4 text-sky-400" />
+        <span>WordPress Developer</span>
       </motion.div>
 
       {/* Badge 3: JavaScript ES6+ (Bottom-Left) */}

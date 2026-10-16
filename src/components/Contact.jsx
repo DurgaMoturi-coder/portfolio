@@ -140,7 +140,7 @@ export default function Contact() {
           Let's Build Something <span className="gradient-text-cyan-blue">Extraordinary</span>
         </h2>
         <p className="text-slate-400 text-sm sm:text-base mt-3">
-          Looking to scale your organic search rankings, launch high-performing digital marketing campaigns, or build modern web experiences with {personalInfo.name}? Let's connect!
+          Looking to develop custom WordPress websites, scale your organic search rankings, or build modern web experiences with {personalInfo.name}? Let's connect!
         </p>
       </div>
 
@@ -264,7 +264,7 @@ export default function Contact() {
                 Send a Message to {personalInfo.name}
               </h3>
               <p className="text-xs text-slate-400">
-                Direct inquiry form for digital marketing strategies, SEO audits, and frontend development.
+                Direct inquiry form for custom WordPress development, SEO audits, and modern web applications.
               </p>
             </div>
 
