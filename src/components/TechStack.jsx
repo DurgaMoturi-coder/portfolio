@@ -6,7 +6,6 @@ import {
   FaCss3Alt,
   FaJs,
   FaReact,
-  FaNodeJs,
   FaGitAlt,
   FaGithub,
   FaVialCircleCheck,
@@ -16,11 +15,8 @@ import {
   FaWordpress
 } from 'react-icons/fa6';
 import {
-  SiTypescript,
   SiExpo,
   SiTailwindcss,
-  SiRedux,
-  SiExpress,
   SiSupabase,
   SiMongodb,
   SiPostman,
@@ -31,9 +27,8 @@ import {
   SiGoogleanalytics
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
-import { FaWandMagicSparkles, FaCube, FaBoltLightning, FaBoxArchive, FaTerminal } from 'react-icons/fa6';
+import { FaWandMagicSparkles, FaCube, FaBoltLightning, FaTerminal } from 'react-icons/fa6';
 import {
-  SiThreedotjs,
   SiCursor,
   SiWindsurf,
   SiClaude,
@@ -172,16 +167,6 @@ const SKILLS_MATRIX = [
     desc: 'ES Next syntax, async/await, closures, and modern web APIs.'
   },
   {
-    name: 'TypeScript',
-    category: 'Frontend',
-    level: 'Advanced',
-    icon: SiTypescript,
-    color: 'text-blue-400',
-    bg: 'bg-blue-400/10',
-    border: 'border-blue-400/30',
-    desc: 'Static typing, interface contracts, generics, and type safety.'
-  },
-  {
     name: 'React.js',
     category: 'Frontend',
     level: 'Advanced',
@@ -200,16 +185,6 @@ const SKILLS_MATRIX = [
     bg: 'bg-cyan-400/10',
     border: 'border-cyan-400/30',
     desc: 'Utility-first CSS v4, dark mode styling, and dynamic themes.'
-  },
-  {
-    name: 'Redux Toolkit',
-    category: 'Frontend',
-    level: 'Advanced',
-    icon: SiRedux,
-    color: 'text-purple-400',
-    bg: 'bg-purple-500/10',
-    border: 'border-purple-500/30',
-    desc: 'Global state management, RTK Query, slices, and store configuration.'
   },
 
   // Mobile
@@ -235,26 +210,6 @@ const SKILLS_MATRIX = [
   },
 
   // Backend
-  {
-    name: 'Node.js',
-    category: 'Backend',
-    level: 'Proficient',
-    icon: FaNodeJs,
-    color: 'text-emerald-400',
-    bg: 'bg-emerald-500/10',
-    border: 'border-emerald-500/30',
-    desc: 'Asynchronous event-driven server runtime environment.'
-  },
-  {
-    name: 'Express.js',
-    category: 'Backend',
-    level: 'Proficient',
-    icon: SiExpress,
-    color: 'text-slate-300',
-    bg: 'bg-slate-500/10',
-    border: 'border-slate-500/30',
-    desc: 'RESTful API routing, middleware architecture, and security.'
-  },
   {
     name: 'Python',
     category: 'Backend',
@@ -410,18 +365,6 @@ const SKILLS_MATRIX = [
     bg: 'bg-orange-600/10',
     border: 'border-orange-600/30',
     desc: 'API endpoint testing, environment variables, and debugging.'
-  }
-  ,
-  // Frontend
-  {
-    name: 'Three.js',
-    category: 'Frontend',
-    level: 'Proficient',
-    icon: SiThreedotjs,
-    color: 'text-slate-200',
-    bg: 'bg-slate-700/20',
-    border: 'border-slate-700/40',
-    desc: '3D graphics for the web, scenes, cameras, lighting, and interactive WebGL experiences.'
   },
 
   // AI Tools
@@ -558,17 +501,6 @@ const SKILLS_MATRIX = [
     bg: 'bg-amber-500/10',
     border: 'border-amber-500/30',
     desc: 'Open-source, offline-first API client for testing endpoints with Git-friendly collections.'
-  },
-  {
-    name: 'Zustand',
-    category: 'Frontend',
-    level: 'Proficient',
-    icon: FaBoxArchive,
-    image: '/tools/zustand.svg',
-    color: 'text-orange-400',
-    bg: 'bg-orange-500/10',
-    border: 'border-orange-500/30',
-    desc: 'Minimal, hook-based global state management for React without boilerplate.'
   },
   {
     name: 'Bootstrap',
@@ -734,11 +666,11 @@ export default function TechStack() {
                             <img
                               src={skill.image}
                               alt={`${skill.name} logo`}
-                              className={`w-4 h-4 sm:w-5 sm:h-5 object-contain ${['Zustand', 'Bootstrap'].includes(skill.name) ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`}
+                              className={`w-4 h-4 sm:w-5 sm:h-5 object-contain ${skill.name === 'Bootstrap' ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`}
                               loading="lazy"
                             />
                           ) : (
-                            <IconComponent className={`w-4 h-4 sm:w-5 sm:h-5 ${skill.name === 'Three.js' ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`} />
+                            <IconComponent className="w-4 h-4 sm:w-5 sm:h-5" />
                           )}
                         </a>
                       ) : (
@@ -747,11 +679,11 @@ export default function TechStack() {
                             <img
                               src={skill.image}
                               alt={`${skill.name} logo`}
-                              className={`w-4 h-4 sm:w-5 sm:h-5 object-contain ${['Zustand', 'Bootstrap'].includes(skill.name) ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`}
+                              className={`w-4 h-4 sm:w-5 sm:h-5 object-contain ${skill.name === 'Bootstrap' ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`}
                               loading="lazy"
                             />
                           ) : (
-                            <IconComponent className={`w-4 h-4 sm:w-5 sm:h-5 ${skill.name === 'Three.js' ? 'brightness-125 drop-shadow-[0_1px_4px_rgba(255,255,255,0.25)]' : ''}`} />
+                            <IconComponent className="w-4 h-4 sm:w-5 sm:h-5" />
                           )}
                         </div>
                       )}

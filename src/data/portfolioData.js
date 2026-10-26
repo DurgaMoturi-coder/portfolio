@@ -69,8 +69,8 @@ export const portfolioData = {
       { label: "Status", value: "Available for Work" },
     ],
     codeSnippet: {
-      filename: "durgaRao.config.ts",
-      language: "typescript",
+      filename: "durgaRao.config.js",
+      language: "javascript",
       content: `const specialist = {
   name: "Durga Rao Moturi",
   roles: ["WordPress Developer", "SEO Specialist", "Frontend Developer"],
@@ -119,12 +119,12 @@ export default specialist;`,
         name: "durga",
         title: "Durga Core Web Application",
         description:
-          "Modern frontend web application engineered with TypeScript, modular architecture, and responsive UI components.",
+          "Modern frontend web application engineered with modern JavaScript (ES6+), modular architecture, and responsive UI components.",
         html_url: "https://github.com/DurgaMoturi-coder/durga",
         stargazers_count: 5,
         forks_count: 1,
-        language: "TypeScript",
-        topics: ["typescript", "frontend", "web-app", "responsive-design"],
+        language: "JavaScript",
+        topics: ["javascript", "frontend", "web-app", "responsive-design"],
         updated_at: "2026-02-10T12:00:00Z",
       },
       {

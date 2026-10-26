@@ -8,13 +8,13 @@ export const githubReposData = {
       name: "durga",
       displayName: "Durga Core Web App",
       description:
-        "Modern frontend web application engineered with TypeScript, modular component architecture, and responsive UI components.",
+        "Modern frontend web application engineered with modern JavaScript (ES6+), modular component architecture, and responsive UI components.",
       html_url: "https://github.com/DurgaMoturi-coder/durga",
-      language: "TypeScript",
+      language: "JavaScript",
       stargazers_count: 5,
       forks_count: 1,
       updated_at: "2026-02-10T14:23:33Z",
-      topics: ["typescript", "frontend", "web-app", "responsive-design", "react"],
+      topics: ["javascript", "frontend", "web-app", "responsive-design", "react"],
       homepage: "https://github.com/DurgaMoturi-coder/durga",
     },
     {

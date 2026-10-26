@@ -30,7 +30,7 @@ const PRINCIPLES = [
   {
     step: '03',
     title: 'High Performance & Optimization',
-    desc: 'Ensuring fast page load times, lightweight bundle sizes, smooth Lenis scrolling, lazy loading, and rapid API responses with Node.js & Supabase.',
+    desc: 'Ensuring fast page load times, lightweight bundle sizes, smooth Lenis scrolling, lazy loading, and rapid API responses with Supabase & modern APIs.',
     icon: Zap,
     color: 'text-blue-400',
     bg: 'bg-blue-500/10',
